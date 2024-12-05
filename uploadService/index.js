@@ -25,6 +25,6 @@ req.files.forEach(async element => {
     res.send("video upload success")
 })
 app.listen(port,()=>{
-    console.log("listening on port",port);
+    console.log("upload service listening on port",port);
     
 })
